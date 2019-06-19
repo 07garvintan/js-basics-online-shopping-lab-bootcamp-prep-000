@@ -40,7 +40,7 @@ function viewCart() {
 function total() {
   // write your code 
 
-  
+ total = 0;
  for (var i = 0; i < cart.length;i++) {
   total += cart[i].itemPrice
  }
