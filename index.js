@@ -32,7 +32,7 @@ function viewCart() {
        i +=1
   }
     
-}
+
 
 function total() {
   // write your code here
