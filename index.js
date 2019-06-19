@@ -27,8 +27,9 @@ function viewCart() {
   } else  {
      var str = "In your cart, you have "
      var i = 1 
-     while i < cart.length-2 {
+     while (i < cart.length-2) {
        str.concat(`${cart[0].itemName} at $${cart[0].itemPrice}`)
+       i +=1
   }
     
 }
