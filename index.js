@@ -31,7 +31,7 @@ function viewCart() {
       str = str += `${cart[i].itemName} at $${cart[i].itemPrice},`
     }
   }
- 
+ return str
 }
     
 
