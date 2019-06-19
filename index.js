@@ -44,7 +44,7 @@ function total() {
   for (i=0; i<cart.length;i++){
     prices.push(`${cart[i].itemPrice}`)
   }
-  return prices
+  return prices.map(Number)
 }
 
 function removeFromCart(item) {
