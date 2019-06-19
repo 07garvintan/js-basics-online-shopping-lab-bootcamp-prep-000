@@ -27,9 +27,7 @@ function viewCart() {
   } else if (cart.length >= 3) {
      var str = "In your cart, you have "
      for (i = 0; i < cart.length - 2; i+=1) {
-       str.push(`${cart[i].itemName} at $${cart[i].item{Price})
-       
-     }
+       str.push(`${cart[0].itemName} at $${cart[0].itemPrice}`)
   }
     
 }
