@@ -39,12 +39,10 @@ function viewCart() {
 
 function total() {
   // write your code 
-  var prices = []
-  var i = 100
-  for (i=0; i<cart.length;i++){
-    prices.push(`${cart[i].itemPrice}`)
-  }
-  return prices.map(Number).reduce()
+ var total = 0
+ var i = 0 
+ for (i = 0; i < cart.length;i++)
+  total += 
 }
 
 function removeFromCart(item) {
